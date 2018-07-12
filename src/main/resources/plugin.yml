@@ -1,0 +1,13 @@
+name: ${project.artifactId}
+main: com.jaoafa.jaoMission.JaoMission
+version: ${project.version}
+description: jao Minecraft Server ミッションプラグイン
+database: true
+softdepend: [PermissionsEx, LuckPerms]
+author: mine_book000
+commands:
+   mission:
+      description: jaoMission
+      usage: /mission
+      permission: jaomission.mission
+      permission-message: You do not have permission to perform this command.
